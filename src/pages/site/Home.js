@@ -1,10 +1,19 @@
-
+import React from "react";
+import Banner from "./homecomponents/Banner";
+import Category from "./homecomponents/Category";
+import Product from "./homecomponents/Product";
+import Testimonials from "./homecomponents/Testimonials";
+import Blog from "./homecomponents/Blog";
 
 const Home = () => {
     return (
         <>
-            Home Page -- 
-            Gọi các component từ homeComponents ra ở đây
+        <Banner></Banner>
+        <Category></Category>
+        <Product></Product>
+        <Testimonials></Testimonials>
+        <Blog></Blog>
+           
         </>
     );
 };
